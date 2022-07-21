@@ -7,7 +7,7 @@
 // ○ Crie uma lista ordenada com três coisas que vocês gosta de fazer nas suas horas livres
 // ○ Renderize seu Componente Funcional no navegador
 // ○ [EXTRA] Ainda não falamos sobre estilos.... mas que tal pesquisar sobre como isto acontece
-// no React e fazer uma tentativa?
+// no React e fazer uma tentativa ?
 
 import React from "react";
 import "./App.css";
