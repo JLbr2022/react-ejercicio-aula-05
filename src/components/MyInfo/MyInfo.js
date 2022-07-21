@@ -1,5 +1,5 @@
 import React from "react";
-import FlamingoSelfie from "../images/Flamingo_ME2.jpg";
+// import FlamingoSelfie from "../images/Flamingo_ME2.jpg";
 
 function MyInfo(props) {
   return (
@@ -14,9 +14,10 @@ function MyInfo(props) {
         <div className="MyPhoto">
           <img
             className="imgMyPhoto"
-            src={FlamingoSelfie}
-            alt="FlamingoSelfie"
+            src={require(`../images/${props.photo}.jpg`)}
+            alt="MyPhoto"
           />
+          {/* <img className="imgMyPhoto" src={props.photo} alt="FlamingoSelfie" /> */}
         </div>
 
         <div className="Paragraph">

@@ -12,14 +12,14 @@
 import React from "react";
 import "./App.css";
 import MyInfo from "./components/MyInfo/MyInfo";
-// import FlamingoSelfie from "./images/FlamingoSelfie.jpg";
+// import FlamingoSelfie from "./components/images/Flamingo_ME2.jpg";
 
 function App() {
   return (
     <div className="App">
       <MyInfo
         name="José Luis Freites"
-        photo=""
+        photo="Flamingo_ME2"
         description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
     cupiditate porro omnis quibusdam praesentium doloremque fugit sit
     obcaecati ullam possimus quia dolorem quae impedit similique atque,
