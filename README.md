@@ -1,5 +1,9 @@
 ## React JS: EJERCICIO AULA 5
 
+<p align="center">
+    <img width="10%" src="https://github.com/JLbr2022/react-ejercicio-aula-05/blob/master/src/components/images/logo192.png?raw=true"> 
+</p>
+
 ### ● Vamos explorar Componentes Funcionais:
 
 ○ Crie um projeto React do zero (dica: create-react-app)
@@ -19,6 +23,3 @@
 ### Así está la web siguiendo el ejercicio firmado
 
 ![enter image description here](https://github.com/JLbr2022/react-ejercicio-aula-05/blob/master/src/components/images/imageWeb.jpg?raw=true)
-
-**REACT JS LOGO**
-![enter image description here](https://github.com/JLbr2022/react-ejercicio-aula-05/blob/master/src/components/images/logo192.png?raw=true)
