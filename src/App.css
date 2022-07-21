@@ -36,54 +36,7 @@ body {
   height: 10em;
 }
 
-.main {
-  padding-top: 1.5em;
-}
-
 .Title {
   font-size: 1.5em;
-  font-weight: 200;
-}
-
-.MyPhoto {
-  padding-top: 2em;
-  padding-left: 2em;
-  height: 350px;
-  width: 280px;
-  border-radius: 50%;
-  border: 2px solid rgb(63, 50, 1);
-  margin: 0 auto;
-  margin: 20px;
-  overflow: hidden;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.imgMyPhoto {
-  width: 350px;
-}
-
-.Paragraph {
-  font-family: 'Montserrat Alternates',
-    sans-serif;
-  font-weight: 200;
-  padding: 1em 5em 1.5em 5em;
-  line-height: 1.3em;
-}
-
-.List h3 {
-  font-size: 1.5em;
-  font-weight: 400;
-  margin-bottom: 1.5em;
-}
-
-
-.List {
-  font-weight: 100;
-  margin-bottom: 2em;
-  font-family: 'Montserrat Alternates',
-    sans-serif;
   font-weight: 200;
 }

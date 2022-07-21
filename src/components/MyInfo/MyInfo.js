@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./MyInfo.css";
 function MyInfo(props) {
   return (
     <div className="App">
