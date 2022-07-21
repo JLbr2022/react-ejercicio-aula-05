@@ -12,7 +12,6 @@
 import React from "react";
 import "./App.css";
 import MyInfo from "./components/MyInfo/MyInfo";
-// import FlamingoSelfie from "./components/images/Flamingo_ME2.jpg";
 
 function App() {
   return (
