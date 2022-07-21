@@ -1,46 +1,107 @@
 .main {
-  padding-top: 1.5em;
+  padding: 3em 0em 1.5em 0em;
 }
 
 .MyPhoto {
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-left: 2em;
   height: 350px;
   width: 280px;
   border-radius: 50%;
   border: 2px solid rgb(63, 50, 1);
   margin: 0 auto;
-  margin: 20px;
   overflow: hidden;
   object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: .5s;
 }
 
 .imgMyPhoto {
   width: 350px;
+  transition-duration: .5s;
 }
 
 .Paragraph {
-  font-family: 'Montserrat Alternates',
-    sans-serif;
   font-weight: 200;
-  padding: 1em 5em 1.5em 5em;
-  line-height: 1.3em;
+  padding: 3em 5em 1.5em 5em;
+  line-height: 2em;
+  transition-duration: .3s;
 }
 
 .List h3 {
   font-size: 1.5em;
   font-weight: 400;
-  margin-bottom: 1.5em;
+  padding: 1em 2.5em 1.5em 2.5em;
+  transition-duration: .3s;
 }
 
-
 .List {
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 100;
   margin-bottom: 2em;
-  font-family: 'Montserrat Alternates',
-    sans-serif;
   font-weight: 200;
+  line-height: 2em;
+  transition-duration: .3s;
+}
+
+@media screen and (max-width: 600px) {
+
+  .header {
+    width: 100%;
+    height: 3em;
+    background-color: rgb(49, 49, 49);
+    transition-duration: .3s;
+  }
+
+  .Title {
+    font-size: .5em;
+    font-weight: 200;
+    transition-duration: .3s;
+  }
+
+  .main {
+    padding: 1em 0em 1em 0em;
+  }
+
+  .MyPhoto {
+    position: relative;
+    padding-bottom: 1.5em;
+    padding-right: 2em;
+    height: 140px;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px solid rgb(63, 50, 1);
+    margin: 0 auto;
+    margin: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .3s;
+  }
+
+  .imgMyPhoto {
+    width: 120px;
+    transition-duration: .3s;
+  }
+
+  .Paragraph {
+    padding: 1em 1em 1em 1em;
+    font-size: .6em;
+    transition-duration: .3s;
+  }
+
+  .List h3 {
+    font-size: 1.2em;
+    padding: 0em 1em 1em 1em;
+    font-weight: 500;
+  }
+
+  .List {
+    font-size: .6em;
+    padding: 0em 1em 1em 1em;
+  }
 }

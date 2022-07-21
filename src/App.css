@@ -12,6 +12,7 @@ body {
   color: rgb(231, 244, 255);
   font-family: montserrat, sans-serif;
   font-size: 20px;
+  scroll-behavior: smooth;
 }
 
 .centered {
@@ -22,6 +23,8 @@ body {
 }
 
 .App {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -31,12 +34,14 @@ body {
 }
 
 .header {
-  background-color: rgb(49, 49, 49);
   width: 100%;
   height: 10em;
+  background-color: rgb(49, 49, 49);
+  transition-duration: .3s;
 }
 
 .Title {
   font-size: 1.5em;
   font-weight: 200;
+  transition-duration: .3s;
 }
