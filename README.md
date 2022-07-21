@@ -1,4 +1,4 @@
-## React JS: EJERCICIO AULA 5
+## React JS: EXERCICIO AULA 5
 
 <p align="center">
     <img width="10%" src="https://github.com/JLbr2022/react-ejercicio-aula-05/blob/master/src/components/images/logo192.png?raw=true"> 
