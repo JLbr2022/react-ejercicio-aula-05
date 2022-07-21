@@ -1,4 +1,5 @@
 import React from "react";
+import FlamingoSelfie from "../images/Flamingo_ME2.jpg";
 
 function MyInfo(props) {
   return (
@@ -13,7 +14,7 @@ function MyInfo(props) {
         <div className="MyPhoto">
           <img
             className="imgMyPhoto"
-            src={props.FlamingoSelfie}
+            src={FlamingoSelfie}
             alt="FlamingoSelfie"
           />
         </div>
@@ -49,3 +50,5 @@ function MyInfo(props) {
     </div>
   );
 }
+
+export default MyInfo;
