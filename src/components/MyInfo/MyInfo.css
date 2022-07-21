@@ -1,3 +1,7 @@
+.container {
+  width: 100%
+}
+
 .main {
   padding: 3em 0em 1.5em 0em;
 }
@@ -24,6 +28,7 @@
 }
 
 .Paragraph {
+  width: 90%;
   font-weight: 200;
   padding: 3em 5em 1.5em 5em;
   line-height: 2em;
@@ -33,7 +38,7 @@
 .List h3 {
   font-size: 1.5em;
   font-weight: 400;
-  padding: 1em 2.5em 1.5em 2.5em;
+  padding: 1em 2.5em 1.9em 2.5em;
   transition-duration: .3s;
 }
 
@@ -47,6 +52,11 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .html,
+  .body {
+    scroll-behavior: smooth;
+  }
 
   .header {
     width: 100%;

@@ -9,7 +9,7 @@ function MyInfo(props) {
         </div>
       </header>
 
-      <div className="App">
+      <div className="AppMyInfo">
         <main className="main centered">
           <div className="MyPhoto">
             <img
