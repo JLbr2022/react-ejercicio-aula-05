@@ -10,7 +10,7 @@ function MyInfo(props) {
         </div>
       </header>
 
-      <main className="centered">
+      <main className="main centered">
         <div className="MyPhoto">
           <img
             className="imgMyPhoto"
@@ -20,30 +20,14 @@ function MyInfo(props) {
         </div>
 
         <div className="Paragraph">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-            cupiditate porro omnis quibusdam praesentium doloremque fugit sit
-            obcaecati ullam possimus quia dolorem quae impedit similique atque,
-            explicabo iusto vero officia! Quis, nemo aspernatur autem possimus
-            ad modi aliquid perspiciatis vitae beatae delectus omnis aperiam
-            necessitatibus laboriosam odit debitis quibusdam deserunt eligendi
-            cum molestias provident. Non aut provident cum incidunt quo.
-            Adipisci doloremque harum quia aut officia ea dolorum maxime minus
-            iusto distinctio at est, earum laudantium, beatae recusandae.
-            Excepturi ratione aperiam vitae, quasi similique minima. Illum
-            officiis quaerat possimus veritatis? Quasi excepturi porro magni
-            mollitia atque voluptate ipsam pariatur sequi a, non ut natus
-            necessitatibus eligendi cupiditate minima amet praesentium nisi
-            suscipit est veniam accusamus eveniet.
-          </p>
+          <p className="p-content">{props.description}</p>
         </div>
-
         <div className="List">
-          <h3>Cosas que me gustan hacer:</h3>
-          <ol>
-            <li>Compartir con mi familia</li>
-            <li>Leer y estar al día sobre tecnología en Computación</li>
-            <li>Ver películas y escuchar buena música</li>
+          <h3>En mi tiempo libre me gusta:</h3>
+          <ol className="freeTime">
+            <li className="List01">{props.List01}</li>
+            <li className="List02">{props.List02}</li>
+            <li className="List03">{props.List03}</li>
           </ol>
         </div>
       </main>

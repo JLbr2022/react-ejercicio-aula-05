@@ -36,14 +36,18 @@ body {
   height: 10em;
 }
 
+.main {
+  padding-top: 1.5em;
+}
+
 .Title {
   font-size: 1.5em;
   font-weight: 200;
-  margin: 0;
-  padding-bottom: .5em;
 }
 
 .MyPhoto {
+  padding-top: 2em;
+  padding-left: 2em;
   height: 350px;
   width: 280px;
   border-radius: 50%;
@@ -65,8 +69,8 @@ body {
   font-family: 'Montserrat Alternates',
     sans-serif;
   font-weight: 200;
-  /* padding: 1.5em; */
-  padding: 1em 5em 2em 5em;
+  padding: 1em 5em 1.5em 5em;
+  line-height: 1.3em;
 }
 
 .List h3 {
@@ -79,4 +83,7 @@ body {
 .List {
   font-weight: 100;
   margin-bottom: 2em;
+  font-family: 'Montserrat Alternates',
+    sans-serif;
+  font-weight: 200;
 }
